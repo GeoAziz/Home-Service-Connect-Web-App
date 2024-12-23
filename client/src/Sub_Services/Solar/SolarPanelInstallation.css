@@ -1,0 +1,52 @@
+/* SolarPanelInstallation.css */
+.solar-panel-installation-page {
+    background-color: #f9f9f9;
+    padding-top: 50px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  h3 {
+    color: #2c3e50;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form .form-group label {
+    font-weight: bold;
+  }
+  
+  .contact-form .form-control {
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .contact-form button {
+    background-color: #27ae60;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #2ecc71;
+  }
+  
+  img {
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  

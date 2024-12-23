@@ -1,0 +1,35 @@
+.service-card {
+    transition: all 0.3s ease;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .service-card.hovered {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card-link {
+    display: block;
+    height: 100%;
+  }
+  
+  .repair {
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .maintenance {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .images_padding {
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover .images_padding {
+    transform: scale(1.1);
+  }
+  

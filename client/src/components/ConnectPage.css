@@ -1,0 +1,58 @@
+/* ConnectPage.css */
+
+.connect-page {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for a modern look */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center text alignment */
+  }
+  
+  .page-title {
+    font-size: 2.5rem; /* Larger font size for the title */
+    color: #333; /* Darker text color for contrast */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  .page-description {
+    font-size: 1.2rem; /* Slightly larger font for description */
+    color: #666; /* Softer color for description */
+    margin-bottom: 30px; /* Space below the description */
+  }
+  
+  .button-container {
+    margin-bottom: 20px; /* Space below the button */
+  }
+  
+  .connect-button {
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1.2rem; /* Larger font size for the button */
+    color: #fff; /* White text color */
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .connect-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .alert {
+    margin-top: 20px; /* Space above alerts */
+    padding: 15px; /* Padding for alerts */
+    border-radius: 5px; /* Rounded corners for alerts */
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da; /* Light red background for error alerts */
+    color: #721c24; /* Dark red text color */
+  }
+  
+  .alert-success {
+    background-color: #d4edda; /* Light green background for success alerts */
+    color: #155724; /* Dark green text color */
+  }

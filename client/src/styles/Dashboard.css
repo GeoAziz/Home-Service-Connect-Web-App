@@ -1,0 +1,31 @@
+/* Dashboard.css */
+.dashboard-container {
+  padding: 20px;
+}
+
+.classic-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.classic-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.classic-table {
+  margin-top: 20px;
+}
+
+/* Home.css */
+.home-container {
+  padding: 50px;
+  background-color: #f8f9fa;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,73 @@
+/* Classic Dashboard Styles */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f9f9f9;
+}
+
+.dashboard-container {
+  margin-top: 20px;
+}
+
+.classic-heading {
+  font-family: 'Times New Roman', serif;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.classic-card {
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.classic-card .card-body {
+  padding: 20px;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.nav-link:hover {
+  background-color: #ecf0f1;
+  color: #34495e;
+  border-radius: 5px;
+}
+
+.classic-table th {
+  background-color: #ecf0f1;
+  font-weight: normal;
+}
+
+.classic-table td {
+  font-size: 1.1rem;
+}
+
+.badge {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 12px;
+}
+
+.bg-success {
+  background-color: #2ecc71;
+}
+
+.bg-warning {
+  background-color: #f39c12;
+}
+
+.bg-danger {
+  background-color: #e74c3c;
+}

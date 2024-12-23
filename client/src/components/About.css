@@ -1,0 +1,56 @@
+/* Base styles for #about section */
+#about {
+  background-color: #ffffff; /* Keeps background white */
+  padding: 0;                 /* Removes default padding */
+  margin: 0;                  /* Removes default margin */
+}
+
+/* Ensures the container stretches across the screen */
+.about-container .container {
+  max-width: 20%;            /* Ensures container stretches fully */
+  padding-left: 0;            /* Removes left padding */
+  padding-right: 0;           /* Removes right padding */
+}
+
+/* Styles for mobile responsiveness (max-width: 767px) */
+@media (max-width: 767px) {
+  .about-container .container {
+      padding-left: 15px;      /* Adds padding on smaller screens */
+      padding-right: 15px;     /* Adds padding on smaller screens */
+  }
+
+  .about-container img {
+      width: 100%;             /* Makes image responsive */
+      height: auto;            /* Keeps aspect ratio intact */
+  }
+
+  .about-container p {
+      padding-left: 15px;      /* Adds padding to paragraph */
+      padding-right: 15px;     /* Adds padding to paragraph */
+  }
+
+  /* Ensures no border or shadow on rounded images */
+  .rounded {
+      border: none;            /* Removes any border */
+      box-shadow: none;        /* Removes any shadow */
+  }
+
+  /* Adjusts the col-md-5 for smaller screens */
+  .col-md-5 {
+      background-color: transparent; /* Ensures transparent background */
+      border: none;                  /* Removes any border */
+      padding: 0;                    /* Removes any extra padding */
+  }
+}
+
+/* Additional enhancements */
+.rounded {
+  display: block;             /* Removes any unwanted space below the image */
+  max-width: 100%;            /* Ensures the image doesn't exceed the container width */
+  height: auto;               /* Maintains aspect ratio */
+}
+
+#about .container {
+  padding: 0;                 /* Removes any padding for the overall container */
+}
+

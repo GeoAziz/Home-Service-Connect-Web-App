@@ -1,0 +1,164 @@
+/* ChronicDiseaseManagement.css */
+
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 1200px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: #3498db;
+  }
+  
+  h2 {
+    color: #34495e;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  
+  h3 {
+    color: #2980b9;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    color: #7f8c8d;
+    font-size: 16px;
+  }
+  
+  .row > div {
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .row > div:hover {
+    transform: translateY(-10px);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    color: #27ae60;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  blockquote {
+    background-color: #f1f8ff;
+    border-left: 5px solid #3498db;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  blockquote:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+  }
+  
+  blockquote p {
+    font-style: italic;
+    color: #2c3e50;
+  }
+  
+  .blockquote-footer {
+    color: #7f8c8d;
+    font-size: 14px;
+  }
+  
+  form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border-radius: 6px;
+    padding: 12px;
+  }
+  
+  .form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    blockquote {
+      margin: 10px 0;
+    }
+  }
+  
+  /* Accessibility and Print Styles */
+  @media print {
+    body {
+      background: white;
+    }
+  
+    .container {
+      box-shadow: none;
+    }
+  }
+  
+  /* Animation Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animated-section {
+    animation: fadeIn 1s ease-in-out;
+  }
